@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  color: #fff;
+  background-color: #111;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+.button {
+  color: inherit;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  font-size: 0.8rem;
+  background-color: rgb(12, 12, 12);
+  outline: none;
+  transition: 0.3s;
+  border: none;
+  border: 1px #aaa solid;
+  border-radius: 100%;
+}
+.button:hover {
+  border: 1px #ddd solid;
+}
