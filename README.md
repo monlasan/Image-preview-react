@@ -2,4 +2,12 @@
 
 #vite #react #filereaderapi
 
-A simple react app with image preview feature using the FileReader API
+---
+
+A simple react app with image preview feature using the **FileReader API**
+
+### Setup
+
+- Clone the repos
+- run **yarn install**
+- run **yarn dev**
